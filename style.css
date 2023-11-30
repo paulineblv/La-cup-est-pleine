@@ -3,6 +3,11 @@
     src: url(fonts/DuctusMonoRegular.otf);
 }
 
+@font-face {
+    font-family: police2;
+    src: url(fonts/FuturaStd-Medium.otf);
+}
+
 body{
 background-color: rgb(246, 247, 235);
 padding-bottom: 80px;
@@ -56,7 +61,7 @@ h1 {
     padding-bottom: 16px;
     padding-right: 40px;
     color: #E94F37;
-    font-family: Futura Std;
+    font-family: police2;
     font-size: 16px;
     margin: 0;
     }
