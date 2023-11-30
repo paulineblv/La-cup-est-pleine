@@ -1,0 +1,122 @@
+@font-face {
+    font-family: police1;
+    src: url(fonts/DuctusMonoRegular.otf);
+}
+
+body{
+background-color: rgb(246, 247, 235);
+padding-bottom: 80px;
+margin: 0;
+padding: 0;
+}
+
+
+h1 {
+    font-family: police1;
+    font-size: 40px;
+    color:rgb(233, 79, 55);
+    margin: 0;
+}
+
+.mobile{
+    display: none;
+}
+
+/* SMARTPHONE MODE PORTRAIT */
+@media screen and (orientation: portrait) {
+
+    #message-web{
+        display: none;
+    }
+  
+    h1 {
+        font-family: police1;
+        font-size: 40px;
+        color: rgb(233, 79, 55);
+        margin: 0;
+    }
+
+    h2{
+        font-family: police1;
+        font-size: 20px;
+        color: rgb(233, 79, 55);
+        margin-bottom: 16px;
+    }
+
+    #titre{
+        border: 1px solid rgb(233, 79, 55);
+        width: 30%%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 24px;
+        padding-right: 32px;
+    }
+
+    p {
+    padding-bottom: 16px;
+    padding-right: 40px;
+    color: #E94F37;
+    font-family: Futura Std;
+    font-size: 16px;
+    margin: 0;
+    }
+
+    #titre-intro {
+        display: inline-flex;
+/* padding: 80px 24px 80px 40px; */
+flex-direction: column;
+align-items: flex-start;
+flex-shrink: 0;
+    }
+}
+
+.rouge {
+    color: rgb(179, 56, 37);
+}
+
+img{
+    width: 100%;
+    position: absolute;
+    right: 0.4%;
+}
+
+
+/* img{
+    position: absolute;
+    top: 50%;
+    width: 20%;
+    transform: rotate(140deg);
+    right: 20%;
+
+} */
+
+.marquee {
+    background-color:rgb(233, 79, 55);
+    padding: 16px 50px;
+    margin:auto;
+    margin-top: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .marquee span {
+      color: rgb(246, 247, 235);
+      font-weight: 600;
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 10s linear infinite;
+  }
+  
+  #coucou{
+      padding-left: 10%;
+      font-weight: 500;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
